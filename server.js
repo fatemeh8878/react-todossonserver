@@ -11,5 +11,5 @@ server.use(jsonServer.rewriter({ "/api/*": "/$1" }));
 server.use(router);
 
 server.listen(port, () => {
-  console.log(`server ${post}`);
+  console.log(`server ${port}`);
 });
