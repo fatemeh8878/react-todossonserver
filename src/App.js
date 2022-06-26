@@ -10,7 +10,7 @@ import {
   Button,
   Form,
 } from "react-bootstrap";
-const api = " http://localhost:5000/users";
+const api = "https://react-todossonserver.herokuapp.com/";
 const initialState = { name: "", email: "", contact: "", address: "" };
 const App = () => {
   const [data, setData] = useState([]);
