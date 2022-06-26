@@ -10,7 +10,7 @@ import {
   Button,
   Form,
 } from "react-bootstrap";
-const api = "http://10.2.0.2:3000/users";
+const api = " http://localhost:5000/users";
 const initialState = { name: "", email: "", contact: "", address: "" };
 const App = () => {
   const [data, setData] = useState([]);
