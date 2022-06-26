@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "iransans" !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@font-face {
+  font-family: "iransans";
+  src: url("./assets/fonts/iransans/iransans.eot") format("embedded-opentype"),
+    url("./assets/fonts//iransans//iransans.woff2") format("woff2"),
+    url("./assets/fonts/iransans/iransans.woff") format("woff"),
+    url("./assets//fonts//iransans/iransans.ttf") format("truetype");
+}
+.iransans {
+  font-family: "iransans" !important;
+}
