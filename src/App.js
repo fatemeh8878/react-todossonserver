@@ -10,7 +10,7 @@ import {
   Button,
   Form,
 } from "react-bootstrap";
-const api = "https://react-todossonserver.herokuapp.com";
+const api = "https://react-todossonserver.herokuapp.com/posts";
 const initialState = { name: "", email: "", contact: "", address: "" };
 const App = () => {
   const [data, setData] = useState([]);
