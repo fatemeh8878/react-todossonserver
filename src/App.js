@@ -136,7 +136,7 @@ const App = () => {
                 </tr>
               </thead>
               {data &&
-                data.map((item, index) => (
+                data?.map((item, index) => (
                   <tbody key={index}>
                     <tr>
                       <td>{index + 1}</td>
